@@ -9,6 +9,7 @@ import { NumberValidators } from '../../shared/number.validator';
 import { Store, select } from '@ngrx/store';
 import * as fromProduct from '../state/product.reducer';
 import * as productActions from '../state/product.actions';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'pm-product-edit',
